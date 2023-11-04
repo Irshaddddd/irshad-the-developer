@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-image: url(vim.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    position: relative;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    padding: 0 20px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    /* background-color: black; */
+    /* color:white */
+}
+
+#nav-icon i {
+    padding: 10px 16px;
+    background-color: rgba(0, 0, 0, 0.916);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+#nav-item a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 6px;
+    border-bottom: 2px solid black;
+}
+
+#nav-item a:hover {
+    color: whitesmoke;
+}
+
+#nav-icon i:hover {
+    cursor: pointer;
+}
+
+.first-page {
+    padding-bottom: 11rem;
+    background-color: #313033;
+}
+
+.first-page .header {
+    background-color: #313033;
+    padding: 5rem 11.5rem;
+    text-align: center;
+    position: relative;
+    margin-top: 100vh;
+    color: #ffff;
+}
+
+.first-page hr {
+    position: absolute;
+    top: 5px;
+    transform: rotate(90deg);
+    width: 100px;
+    left: 47%;
+}
+
+.first-page h1 {
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+.first-page .header .link a {
+    color: #ffff;
+    text-decoration: none;
+    margin-right: 8px;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+.first-page p {
+    color: rgba(255, 255, 255, 0.881);
+    word-spacing: 0.1rem;
+    font-size: 0.90rem;
+    font-weight: 400;
+    line-height: 1.45rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
+}
+
+.first-page-image {
+    height: 120vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0 3rem;
+    background-position: center;
+    background-image: url(./vim-and-vigour-group-shot-1.jpg);
+}
+
+.secondpage {
+    padding: 10rem 5rem;
+    background-color: #f3f3f4;
+    text-align: center;
+    background-size: cover;
+}
+
+.secondpage img {
+    width: 100%;
+}
+
+.thirdpage {
+    padding: 10rem 0;
+    width: 100%;
+    text-align: center;
+    background-color: #313033;
+}
+
+.thirdpage img {
+    width: 72%;
+}
+
+.fourthpage {
+    background-color: #f3f3f4;
+    padding: 10rem 0rem;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+}
+
+.fourthpage img {
+    width: 55%;
+}
+
+.fifthpage {
+    width: 100%;
+}
+
+.fifthpage .row1 {
+    height: 50vh;
+    display: flex;
+}
+
+.fifthpage .row1 .row1left {
+    width: 50%;
+    height: 100%;
+    background-color: #262626;
+    color: white;
+    /* text-transform: capitalize; */
+}
+
+.fifthpage .row1 .row1left .overlay1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #26262600;
+}
+
+.fifthpage .row1 .row1left:hover {
+    background-image: url(./cta-bg-hover-1.png);
+    background-size: cover;
+
+}
+
+.fifthpage .row1 .row1left:hover .overlay1 {
+    background-color: #171717c7;
+    background-size: cover;
+}
+.fifthpage .row1 .row1left .overlay1 p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+.fifthpage .row1 .row1right {
+    width: 50%;
+    height: 100%;
+    background-color: #262626;
+    color: white;
+}
+.fifthpage .row1 .row1right .overlay2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c1c1cc7;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.fifthpage .row1 .row1right .overlay2 p{
+    padding-top: 10px;
+    font-size: 12px;
+}
+
+.fifthpage .row1 .row1right:hover {
+    background-image: url(./cta-bg-hover-2.jpg);
+    background-size: cover;
+}
+
+.fifthpage .row1 .row1right:hover .overlay1 {
+    background-color: #171717c7;
+    background-size: cover;
+}
+.row2 .navbar{
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #1a1a1a;
+}
+.row2 .navbar .row2left a{
+    padding-right: 40px;
+    color: #ffff;
+    text-decoration: none;
+    /* text-decoration-line: auto; */
+    /* padding-top: 10px; */
+    letter-spacing: 1.5px;
+    font-size: 13px;
+}
+.row2 .navbar .row2right a{
+    padding-left: 40px;
+    color: #ffff;
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+}
+
+.row2 img{
+    width: 230px;
+    background-size: cover;
+    padding: 15px 0;
+}
+.row3{
+    height: 50%;
+    background-position: center;
+    /* object-fit: cover; */
+    background-size: 100% 31rem;
+    background-image: url(./Matchbox-Voice-Image.jpg);
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    justify-content: center;
+    flex-direction: column;
+}
+.row3 .lasttxt h1{
+    font-size: 1.3rem;
+}
+.row3 .lasttxt p{
+                 margin-left: 35px;
+                 font-size: 0.68rem;
+                 margin-bottom: 1rem;
+                 letter-spacing: 1.5px;
+                 
+}

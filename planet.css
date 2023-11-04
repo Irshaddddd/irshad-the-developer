@@ -1,0 +1,387 @@
+@font-face {
+    font-family: dev;
+    src: url(Devilish-StyleOne.ttf);
+    
+}
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+nav{
+    display: flex;
+    height: 90px;
+    color: #353861;
+
+}
+    nav #left{
+        background-color: #353861;
+        width: 7%;
+        align-items: center;
+        display: flex;
+        height: 90px;
+    }
+    nav #middle{
+        width: 25%;
+        background-color: #353861;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+
+    }
+    
+    nav #right{
+        background-color: #353861;
+        height: 90px;
+        width: 68%;
+        display: flex;
+        gap: 55px;
+        justify-content: center;
+        align-items: center;
+        }
+
+    h2{
+        color: white;
+        text-transform: uppercase;
+        font-weight: 500;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    h3{
+        color: white;
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 400;
+        align-items: center;
+        font-family:monospace;
+    }
+    #right a{
+        color: white;
+        text-decoration: none;
+        text-transform: capitalize;
+        font-size: 20px;
+    }
+    #right i{
+        color: white;
+    }
+    #box{
+        width: 100%;
+        height: 100%;
+    } 
+    
+    #box img{
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100%;
+
+    }
+    h1{
+        position: absolute;
+        top: 45%;
+        left: 10%;
+        text-transform: uppercase;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;       
+        font-size: 55px;
+        font-weight: bolder;
+        color: white;
+    }
+    
+    #md{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 55%;
+        margin: 6px;
+        left: 10%;
+        color: white;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    #one{
+        height: 58.5%;
+        width: 100%;
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        /* position: relative; */
+    }
+    #ert1{
+        width: 50%;
+        height: 58.5%;
+    }
+    #ert2{
+        width: 50%;
+        height: 58.5%;
+        background-color: rgb(0, 0, 0);
+        object-fit: cover;
+        background-position: center;
+        position: absolute;
+        right: 0%;
+        
+    }
+    #ert1 h2{
+        position: absolute;
+        color: rgb(248, 246, 246);
+        left: 20%;
+        font-size: 47px;   
+         letter-spacing: 7px;
+        font-family: dev;
+        padding-top: 10px;
+        font-weight: 700;
+    }
+    #ur{
+        color: white;
+        position: absolute;
+        left: 5%;
+        padding-top: 7%;
+        z-index: 99;
+    }
+    #box0{
+        height: 23%;
+        color: white;
+        text-transform: capitalize;
+        position: absolute;
+        left: 5%;
+        top: 135%;
+    }
+    #two{
+        height: 58.5%;
+        width: 100%;
+        display: flex;
+        background-color: black;
+    }
+    
+    #mercuryt{
+        background-color: #000000;
+        width: 50%;
+        position: absolute;
+        right: 0;
+    }
+    #mercuryv h2{
+        position: absolute;
+        color: rgb(248, 246, 246);
+        left: 20%;
+        font-size: 47px;    
+        letter-spacing: 7px;
+        font-family: dev;
+        
+        padding-top: 10px;
+        font-weight: 700;
+    }
+#zero p{
+    color: #ffffff;
+    color: white;
+    position: absolute;
+    left: 5%;
+    padding-top: 7%;
+    z-index: 99;
+}
+#para{
+    position: absolute;
+    left: 5%;
+    padding-top: 11%;
+
+}
+#para li{
+    color: #ffffff;
+} 
+#moon{
+    background-color: rgb(170, 45, 45);
+    width: 100%;
+    height: 58.5%;
+    display: flex;
+}
+#moont{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+
+}
+#moonp{
+    width: 50%;
+    background-color: rgb(245, 20, 20);
+    background-size: cover;
+   /*height: 58.5%;*/
+    background-image: url(https://images.unsplash.com/photo-1477005264461-b0e201668d92?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+}
+#mf h2{
+    position: absolute;
+    left: 20%;   
+     letter-spacing: 7px;
+    font-family: dev;
+    font-weight: 700;
+    padding-top: 10px;
+    font-size: 47px;
+    
+}#para2{
+    position: absolute;
+    left: 5%;
+    padding-top: 7%;
+    z-index: 99;
+    color: #ffffff;
+}
+#para3{
+        position: absolute;
+        left: 5%;
+        padding-top:11%;
+        z-index: 99;
+        color: #ffffff;
+}
+#jupiter{
+    height: 58.5%;
+    width: 100%;
+    display: flex;
+}
+#jup2{
+    width: 50%;
+    background-size: cover;
+    background-image: url(https://i.ytimg.com/vi/x6fmSRnRIso/maxresdefault.jpg);
+}
+
+#jup1{
+    width: 50%;
+    background-color:rgb(0, 0, 0);
+}
+#para4 h2{
+    position: absolute;
+    left: 20%;   
+     letter-spacing: 7px;
+    font-family: dev;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 47px;
+}
+#jup1 #para5{
+    position: absolute;
+    z-index: 99;
+    color: #ffffff;
+    padding-top: 7%;
+    left: 5%;
+}
+#jup1 #para6{
+    position: absolute;
+    z-index: 99;
+    color: #ffffff;
+    padding-top: 11%;
+    left: 5%;
+}
+
+#mars{
+    height: 58.5%;
+    width: 100%;
+    display: flex;
+}
+#mars1{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+#mars2{
+    background-image: url(https://i.ytimg.com/vi/4HzVpsoXKnQ/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGHIgRigtMA8=&rs=AOn4CLBDG5-VmwPcSum2A0LSj-_HnRuLuw);  
+    background-size: cover; 
+    width: 50%;
+}
+#para7 h2{
+    color: #ffffff;
+    padding-top: 10px;
+    font-size: 47px;
+    font-weight: 700;
+    left: 20%;    
+    letter-spacing: 7px;
+    font-family: dev;
+    position: absolute;
+}
+#para8 p{
+    color: #ffffff;
+    padding-top: 7%;
+   
+    left: 5%;
+    position: absolute;
+}
+#para9{
+    color: #ffffff;
+    padding-top: 11%;
+    left: 5%;
+    position: absolute;
+} 
+
+#saturn{
+    height: 58.5%;
+    display: flex;
+    width: 100%;
+}
+#sat1{
+    background-color: #000000;
+    width: 50%;
+}
+
+#sat2{
+    background-image: url(sat.jpg);
+    width: 50%;
+    background-size: cover;
+}
+#para10 h2{
+    color: #ffffff;
+    position: absolute;
+    padding-top: 10px;
+    left: 19%;
+    letter-spacing: 7px;
+    font-family: dev;
+    font-size: 47px;
+    font-weight: 700;
+}
+#para11{
+    color: #ffffff;
+    left: 5%;
+    position: absolute;
+    padding-top: 7%;
+}
+#para12{
+    color: #ffffff;
+    position: absolute;
+    left: 5%;
+    padding-top: 11%;
+
+}
+#venus{
+    height: 58.5%;
+    width: 100%;
+    display: flex;
+}
+#ven1{
+    width: 50%;
+    background-color: rgb(0, 0, 0);
+}
+#ven2{
+    background-image: url(https://2.bp.blogspot.com/-sTP3daEEvDM/WXGqmzRaUpI/AAAAAAAAN_Q/y3CyYAZzLC8BFzhXCRGl3XqiwrFWvb1EQCLcBGAs/w1200-h630-p-k-no-nu/mercury-transit-in-leo.jpg);
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+#para13 h2{
+    color: rgb(255, 255, 255);
+    font-size: 47px;
+    font-weight: 700;
+    position: absolute;
+    padding-top: 10px;
+    letter-spacing: 7px;
+    font-family: dev;
+    left: 20%;
+}
+#para14{
+    position:  absolute;
+    padding-top: 7%;
+    color: white;
+    left: 5%;
+}
+#para15{
+    color: #ffffff;
+    position: absolute;
+    padding-top: 11%;
+    left: 5%;
+}
