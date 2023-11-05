@@ -275,7 +275,9 @@ nav .logo img{
 .ig2 {
     width: 100%;
 }
-
+nav .logo img:hover{
+    cursor: pointer;
+}
 .ig2 img {
     width: 80%;
     margin-left: 10%;
