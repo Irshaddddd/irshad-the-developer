@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(219, 215, 215);
+}
+
+nav {
+    height: 80px;
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+#text {
+    width: 40%;
+}
+
+.icon {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    gap: 100px;
+
+}
+
+#text h2 {
+    font-family: anurati;
+    margin-left: 150px;
+    letter-spacing: 4px;
+    color: #000000;
+}
+
+.icon i {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+
+}
+
+#rev {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 50%;
+}
+
+#para1 {
+    position: absolute;
+    top: 30%;
+    margin-left: 150px;
+}
+
+#para1 h1 {
+    font-weight: 600;
+    font-size: 65px;
+}
+
+#para1 p {
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+#button {
+    position: absolute;
+    top: 65%;
+    margin-left: 160px;
+    display: flex;
+    align-items: center;
+}
+
+button {
+    padding: 2px 40px;
+    border-radius: 18px;
+    border: none;
+
+    color: #b11a1a;
+}
+
+button h3 {
+    font-weight: 600;
+}
+
+#button i {
+    font-size: 45px;
+    margin: 15px 15px;
+    font-weight: 300;
+}
+
+#re {
+    position: absolute;
+    right: 21%;
+    top: 53%;
+}
+
+#re h1 {
+    font-size: 110px;
+}
+
+#re span {
+    color: white;
+    opacity: 0.8;
+}
+
+#last {
+    width: 100%;
+    background-color: transparent;
+    position: absolute;
+    bottom: 0;
+    height: 35%;
+    font-size: 400px;
+    font-weight: 600;
+    overflow: hidden;
+    letter-spacing: 1px;
+    opacity: 0.4;
+
+}
+
+#dtl {
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    color: white;
+}

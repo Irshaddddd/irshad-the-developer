@@ -1,0 +1,539 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    height: 72px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    /*  border: .5px solid #54616b;*/
+}
+
+nav ul {
+    float: left;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    display: flex;
+
+}
+
+nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 1.8px;
+    font-weight: 700;
+    padding: 0px 10px;
+}
+
+nav .logo img{
+    width: 150px;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    background-color: #fff;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+/* nav .logo img { 
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: anurati;
+} */
+
+.icons {
+    position: absolute;
+    right: 20px;
+    padding: 0 10px;
+    display: flex;
+    gap: 65px;
+}
+
+.icons i {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 100;
+    gap: 30px;
+}
+
+#nav2 {
+    height: 44px;
+    width: 100%;
+    position: fixed;
+    box-shadow: 1px 1px 4px 0 #54616b;
+    margin-top: 72px;
+    box-shadow: .5px solid #54616b;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+#one {
+    margin-left: 20px;
+    background-color: #54616b;
+    height: 44px;
+    margin-left: 0;
+    padding: 0px 15px;
+    align-items: center;
+    display: flex;
+}
+
+#one a {
+    text-decoration: none;
+    display: flex;
+    color: white;
+    padding: 2px 4px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#two {
+    margin-left: 20px;
+    background-color: #ffffff;
+    height: 44px;
+    display: flex;
+    border-right: .5px solid #54616b;
+    align-items: center;
+}
+
+#two a {
+    text-decoration: none;
+    align-items: center;
+    font-size: 10px;
+    line-height: 44px;
+    letter-spacing: 2px;
+    margin: 60px 40px;
+    font-weight: 600;
+    color: #000000;
+}
+
+#container {
+    width: 100%;
+    display: inline-block;
+    background-color: saddlebrown;
+}
+
+.cont2 {
+    background-color: rgb(255, 255, 255);
+
+}
+
+.cont2 video {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.container .txt p {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+.txt {
+    padding-top: 18px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .txt button {
+    padding: 8pt 20px 13px;
+    background-color: #0c121c;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-right: 15%;
+    color: #ffffff;
+    transition: all ease .8s;
+    border: 1px solid #0c121c;
+}
+
+.container .txt button:hover {
+    background-color: transparent;
+    color: #0c121c;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    width: 100%;
+    align-items: center;
+    height: 50%;
+}
+
+.model {
+    height: 230px;
+    width: 300px;
+    background: #ffffff;
+}
+
+.model img {
+    object-fit: cover;
+    height: 150px;
+    width: 300px;
+}
+
+.model p {
+    color: #000000;
+    font-weight: 500;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.model button {
+    background-color: transparent;
+    color: black;
+    font-size: 12px;
+    margin-top: 25px;
+    border: #fff;
+}
+
+.model button:hover {
+    cursor: pointer;
+}
+
+.american {
+    width: 100%;
+}
+
+.american #ig {
+    width: 100%;
+    object-fit: cover;
+}
+
+.american #ig img {
+    background-size: cover;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.american p {
+    margin: 10px 10%;
+    font-size: 14px;
+}
+
+.txt2 {
+    width: 100%;
+}
+
+.txt2 h1 {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-weight: 600;
+}
+
+.txt2 p {
+    margin-left: 10%;
+    padding-top: 30px;
+}
+
+.txt2 button {
+    padding: 8px 30px;
+    font-size: 10px;
+    margin-left: 10%;
+    margin-top: 30px;
+    background-color: #000000;
+    color: white;
+}
+
+.txt2 button i {
+    padding-right: 10px;
+}
+
+.txt2 button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.ig2 {
+    width: 100%;
+}
+nav .logo img:hover{
+    cursor: pointer;
+}
+.ig2 img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.ig2 p {
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.txt3 {
+    width: 100%;
+}
+
+.txt3 h1 {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-weight: 600;
+}
+
+.txt3 p {
+    margin-left: 10%;
+    padding-top: 30px;
+}
+
+.txt3 button {
+    padding: 8px 30px;
+    font-size: 10px;
+    margin-left: 10%;
+    margin-top: 30px;
+    background-color: #000000;
+    color: white;
+}
+
+.txt3 button i {
+    padding-right: 10px;
+}
+
+.txt3 button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.ig3 {
+    width: 100%;
+}
+
+.ig3 img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.ig3 p {
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.txt4 {
+    width: 100%;
+}
+
+.txt4 h1 {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-weight: 600;
+}
+
+.txt4 p {
+    margin-left: 10%;
+    padding-top: 30px;
+}
+
+.txt4 button {
+    padding: 8px 30px;
+    font-size: 10px;
+    margin-left: 10%;
+    margin-top: 30px;
+    background-color: #000000;
+    color: white;
+}
+
+.txt4 button i {
+    padding-right: 10px;
+}
+
+.txt4 button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.ig4 {
+    width: 100%;
+}
+
+.ig4 img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.ig4 p {
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.txt5 {
+    width: 100%;
+}
+
+.txt5 h1 {
+    margin-left: 10%;
+    margin-top: 10%;
+    font-weight: 600;
+}
+
+.txt5 p {
+    margin-left: 10%;
+    padding-top: 30px;
+}
+
+.txt5 button {
+    padding: 8px 30px;
+    font-size: 10px;
+    margin-left: 10%;
+    margin-top: 30px;
+    background-color: #000000;
+    color: white;
+}
+
+.txt5 button i {
+    padding-right: 10px;
+}
+
+.txt5 button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.ig5 {
+    width: 100%;
+}
+
+.ig5 img {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.ig5 p {
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.txt6 {
+    width: 100%;
+}
+
+.txt6 h1 {
+    margin-left: 10%;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.txt6 p {
+    margin-left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 80px;
+}
+
+.txt6 button {
+    padding: 12px 40px;
+    font-size: 10px;
+    margin-left: 40%;
+    margin-top: 10px;
+    background-color: #000000;
+    color: white;
+}
+
+.txt6 button i {
+    padding-right: 10px;
+}
+
+.txt6 button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.footer {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer a {
+    text-decoration: none;
+    font-size: small;
+    color: #000000;
+}
+.footer .achha{
+    font-weight: 500;
+}
+.footer .f1 ul li {
+    list-style: none;
+}
+
+.footer .f2 ul li {
+    list-style: none;
+}
+
+.footer .f3 ul li {
+    list-style: none;
+}
+.footer .f4 ul li{
+    list-style: none;
+}
+.footer .achha{
+    padding-bottom: 20px;
+}
+.footer .ok li{
+padding-bottom: 6px;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+.last{
+    position: absolute;
+    width: 100%;
+    border: 1px solid black;
+    padding: 15px;
+}
+.last ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.last ul li {
+    list-style: none;
+}
+.last ul li a{
+    color: black;
+    font-size: small;
+    text-decoration: none;
+}
+.last ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
