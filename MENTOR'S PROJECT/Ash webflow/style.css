@@ -1,0 +1,179 @@
+@font-face {
+    font-family: thunderr;
+    src: url(./Thunder-B.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    height: 80px;
+    background-color: rgb(243, 237, 237);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    padding-left: 32px;
+}
+
+nav .logo img:hover {
+    cursor: pointer;
+}
+
+nav .contant {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 8px 16px;
+    margin-right: 40px;
+}
+
+nav .contant a {
+    font-family: monospace;
+    font-size: 15px;
+    padding: 0 10px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.right {
+    margin-right: 30px;
+}
+
+.right button {
+    font-size: 13px;
+    font-weight: 500;
+    font-family: monospace;
+    padding: 10px 16px;
+    background-color: transparent;
+    letter-spacing: 1px;
+    border-radius: 30px;
+    border: 1px solid #121212;
+    transition: all ease-in .2s;
+}
+
+.right button:hover {
+    background-color: #121212;
+    color: #fff;
+}
+
+.page1 {
+    position: relative;
+    background-color: rgb(243, 237, 237);
+    height: 100vh;
+    width: 100%;
+}
+
+.page1 h1 {
+    font-size: 248.55px;
+    text-align: center;
+    font-weight: 500;
+    line-height: .74;
+    letter-spacing: .7px;
+    font-family: thunderr;
+    padding-top: 60px;
+}
+
+.star {
+    height: 47px;
+    width: 47px;
+    position: absolute;
+    left: 68.5%;
+    top: 28px;
+    background-image: url(Ash_Star.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+
+}
+
+.card {
+    width: 36em;
+    height: 45em;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, 0%);
+    overflow: visible;
+    background-image: url(./Hero.webp);
+    background-size: cover;
+}
+
+.sticker {
+    height: 195px;
+    width: 152px;
+    /* background-color: aqua; */
+    position: absolute;
+    top: 40%;
+    left: 62%;
+    background-image: url(Sticker.png);
+    background-size: cover;
+
+}
+
+.page1 .one{
+    position: absolute;
+    bottom: 120px;
+    left: 30px;
+    font-size: 12px;
+    font-family: monospace;
+}
+.page1 .two{
+    position: absolute;
+    bottom: 120px;
+    right: 30px;
+    font-size: 12px;
+    font-family: monospace;
+}
+.page2{
+    background-color: #242424;
+    width: 100%;    
+    color: #fff;
+    height: 150vh;
+    display: flex;
+}
+.page2 .txt1{
+font-size: 12px;
+padding-top: 65vh;
+padding-left: 40px;
+letter-spacing: 1.5px;
+}
+.page2 .txt2{
+    font-size: 64px;
+    line-height: .9;
+    font-weight: 400;
+    padding-left: 26%;
+     padding-top: 65vh;
+    }
