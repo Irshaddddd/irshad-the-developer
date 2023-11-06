@@ -90,8 +90,9 @@ nav .contant a {
     height: 47px;
     width: 47px;
     position: absolute;
-    left: 68.5%;
+    left: 68.82%;
     top: 28px;
+    mix-blend-mode: difference;
     background-image: url(Ash_Star.svg);
     background-position: center;
     background-repeat: no-repeat;
