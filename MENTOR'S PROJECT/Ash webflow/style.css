@@ -486,13 +486,13 @@ nav .contant a {
     overflow: hidden;
 }
 
-.services-card .sc-1 {
+.services-card .sc-10 {
     justify-content: space-between;
     display: flex;
 
 }
 
-.services-card .sc-1 p {
+.services-card .sc-10 p {
     color: #EBE2DA;
     font-family: monospace;
     font-weight: 400;
@@ -624,83 +624,63 @@ nav .contant a {
 .page8 {
     width: 100%;
     background-color: #242424;
-    /* padding: 0 32px; */
     color: #EBE2DA;
-    overflow-x: hidden;
+    position: relative;
+    overflow: hidden;
 }
-
-.scroller-1 {
+.sc-1{
     display: flex;
     width: 100%;
-    white-space: nowrap;
-    overflow-y: auto;
-    overflow-x: hidden;
-    align-items: center;
-    mix-blend-mode: screen;
-}
-
-.contt { 
-     white-space: nowrap; 
-    display: flex;
-    align-items: center;
+    height: 50px;
+    mix-blend-mode: difference;
+    white-space: nowrap; 
     animation: scroll 60s linear infinite;
-    padding-block: 5px;
-    gap: 10px;
-}
-
-.scroller-1 .contt .img-2 img {
-    width: 7px;
-    height: 7px;
-}
-
-.scroller-1 .contt .text-1 p {
-    font-size: 12px;
-    letter-spacing: 1px;
-    font-family: monospace;
-}
-    .scroller-2{
-        display: flex;
-        width: 100%;
-        white-space: nowrap;
-        overflow-y: auto;
-        overflow-x: hidden;
-        align-items: center;
-    animation: scrollerr 60s linear infinite;
-}
-.scroller-2-inner{
-    overflow-x: hidden;
+}            
+.sc-1-in{
     display: flex;
-    white-space: nowrap;
-    gap: 20px;
-}
-.footer-img img{
-    height: 115.2px;
-    width: 115.2px;
-    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
 }
 
-@keyframes scrollerr {
-    0% {
+@keyframes scrolll {
+    from {
         transform: translateX(0%);
     }
 
- 100% {
-        transform: translateX(100%);
+    to {
+        transform: translateX(-100%);
     }
-
 }
-.workk{
+    @keyframes scrollll {
+        from {
+            transform: translateX(-100%);
+        }
+    
+        to {
+            transform: translateX(0%);
+        }
+}
+.padd{
+    padding-left: 15px;
+}
+.sc-2{
+    display: flex;
+    animation: scrollll 70s linear infinite;
     width: 100%;
-    padding: 0 32px;
-    text-align: center;
-    margin-top: 210px;
-    position: relative;
+    gap: 15px;
 }
-.workk::after{
-    content: url(./Sticker.png);
+.sc-2>img{
+    width: 125px;
+    height: 125px;
+    border-radius: 7px;
+}
+#up{
     position: absolute;
-    left: 62%;
-    top: -15%;
+    top: 32%;
+    left: 64%;
+}
+.workk>img{
+    width: 125px;
 }
 #button{
     width: 100%;
@@ -725,6 +705,7 @@ nav .contant a {
     color: #242424;
 }
 .footer{
+    /* background-color: #242424; */
     width: 100%;
     display: flex;
     align-items: center;
