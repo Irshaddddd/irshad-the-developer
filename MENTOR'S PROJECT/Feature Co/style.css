@@ -528,7 +528,6 @@ button {
 .pic-art1 {
     width: 100%;
     background-image: url(./artist1.webp);
-    background-color: red;
     height: 70%;
     transition: all ease-out .6s;
     background-size: cover;
